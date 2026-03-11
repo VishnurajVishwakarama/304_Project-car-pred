@@ -1,4 +1,4 @@
-# 🚗 Car Price Prediction — End-to-End Machine Learning Project
+# Car Price Prediction — End-to-End Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-ScikitLearn-orange)
@@ -22,7 +22,7 @@ The final result is an **interactive web application** where users can input car
 
 ---
 
-# 📊 Project Architecture
+# Project Architecture
 
 ```
 Raw Dataset
@@ -57,7 +57,7 @@ Streamlit Web Application
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```bash
 .
@@ -77,7 +77,7 @@ Streamlit Web Application
 
 ---
 
-# 📊 Dataset Description
+# Dataset Description
 
 The dataset contains **205 automobile records** with technical specifications.
 
@@ -103,9 +103,9 @@ The goal is to **predict the price of a car based on its specifications**.
 
 ---
 
-# 🔬 Machine Learning Development Lifecycle (MLDLC)
+# Machine Learning Development Lifecycle (MLDLC)
 
-## 1️⃣ Problem Understanding
+## Problem Understanding
 
 **Business Problem**
 
@@ -119,7 +119,7 @@ Supervised Regression
 
 ---
 
-# 🧹 2️⃣ Data Cleaning
+# Data Cleaning
 
 Performed several preprocessing steps:
 
@@ -138,7 +138,7 @@ df.drop_duplicates(inplace=True)
 
 ---
 
-# 📊 3️⃣ Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
 EDA helps understand **patterns, distributions, and relationships** in the dataset.
 
@@ -175,7 +175,7 @@ Important features affecting price:
 
 ---
 
-# ⚙️ 4️⃣ Feature Engineering
+# Feature Engineering
 
 Feature engineering improves model performance by creating meaningful features.
 
@@ -202,7 +202,7 @@ df["fueltype"] = encoder.fit_transform(df["fueltype"])
 
 ---
 
-# 🎯 5️⃣ Feature Selection
+# Feature Selection
 
 Feature selection helps remove irrelevant features and reduce overfitting.
 
@@ -224,7 +224,7 @@ X_selected = selector.fit_transform(X, y)
 
 ---
 
-# 🤖 6️⃣ Model Training
+# Model Training
 
 Several regression models were trained and compared.
 
@@ -247,7 +247,7 @@ model.fit(X_train, y_train)
 
 ---
 
-# 📈 7️⃣ Model Evaluation
+# Model Evaluation
 
 Model performance was evaluated using:
 
@@ -270,7 +270,7 @@ mean_absolute_error(y_test, pred)
 
 ---
 
-# 🏆 Model Comparison
+# Model Comparison
 
 | Model | Performance |
 |------|------|
@@ -283,7 +283,7 @@ The **best-performing model was saved for deployment**.
 
 ---
 
-# 💾 Model Serialization
+# Model Serialization
 
 The trained model was saved using **Pickle**.
 
@@ -297,7 +297,7 @@ This file is used in the **Streamlit application**.
 
 ---
 
-# 🌐 Streamlit Web Application
+# Streamlit Web Application
 
 A **Streamlit-based web interface** allows users to interact with the model.
 
@@ -313,27 +313,27 @@ The model instantly predicts the **estimated car price**.
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
-## 1️⃣ Activate Virtual Environment
+## 1.Activate Virtual Environment
 
 ```bash
 source .venv/bin/activate
 ```
 
-## 2️⃣ Navigate to Streamlit App
+## 2.Navigate to Streamlit App
 
 ```bash
 cd car_price_streamlit_app
 ```
 
-## 3️⃣ Install Dependencies
+## 3.Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 4️⃣ Run Streamlit
+## 4.Run Streamlit
 
 ```bash
 streamlit run app.py
@@ -341,7 +341,7 @@ streamlit run app.py
 
 ---
 
-# 🌍 Open the Web Application
+# Open the Web Application
 
 Visit in your browser:
 
@@ -351,7 +351,7 @@ http://localhost:8501
 
 ---
 
-# ⚙️ Technologies Used
+# Technologies Used
 
 | Category | Tools |
 |------|------|
@@ -363,7 +363,7 @@ http://localhost:8501
 
 ---
 
-# 🎯 Skills Demonstrated
+# Skills Demonstrated
 
 This project demonstrates:
 
@@ -376,7 +376,7 @@ This project demonstrates:
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Possible improvements:
 
@@ -388,4 +388,4 @@ Possible improvements:
 
 ---
 
-⭐ If you found this project useful, consider **starring the repository**.
+If you found this project useful, consider **starring the repository**.
